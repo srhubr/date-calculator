@@ -1,0 +1,72 @@
+body {
+  background-image: url('../img/bg.jpg');
+}
+
+p {
+  font-size: 23px;
+}
+
+.container {
+  padding-bottom: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.check {
+  position: relative;
+  top: 10px;
+  left: -120px;
+}
+
+.current-date {
+  margin: 20px;
+}
+
+.alert {
+  font-size: 18px;
+}
+
+.modal {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.modal-body p {
+  font-size: 16px;
+}
+
+.modal-body p span {
+  color: red;
+  font-weight: bold;
+}
+
+.modal-dialog {
+  height: 100px;
+}
+
+h3 {
+  font-weight: bold;
+}
+
+.modal-footer .btn-success {
+  position: relative;
+  left: -250px;
+}
+
+.modal-footer .btn-primary {
+  position: relative;
+  left: -210px;
+}
+
+@media (max-width: 480px) {
+  .check {
+    position: static;
+    margin-top: 10px;
+  }
+
+  .year {
+    margin-top: 10px;
+  }
+}
