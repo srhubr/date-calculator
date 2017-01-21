@@ -3,34 +3,32 @@ body {
 }
 
 p {
-  font-size: 23px;
+  font-size: 2.5rem;
 }
 
-.container {
-  padding-bottom: 20px;
-  padding-left: 10px;
-  padding-right: 10px;
+h1 {
+  font-size: 3.5rem;
 }
 
 .check {
-  position: relative;
-  top: 10px;
-  left: -120px;
+  padding-top: 10px;
 }
 
 .current-date {
-  margin: 20px;
+  padding-top: 10px;
 }
 
-.alert {
+.button-wrapper {
+  text-align: center;
+  padding-top: 10px;
+}
+
+.current-date span {
   font-size: 18px;
 }
 
 .modal {
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
+  margin-top: 150px;
 }
 
 .modal-body p {
@@ -42,6 +40,14 @@ p {
   font-weight: bold;
 }
 
+.modal-body div {
+  display: inline-block;
+}
+
+.modal-body div:first-child {
+  margin-right: 30px;
+}
+
 .modal-dialog {
   height: 100px;
 }
@@ -50,23 +56,12 @@ h3 {
   font-weight: bold;
 }
 
-.modal-footer .btn-success {
-  position: relative;
-  left: -250px;
+.modal-footer {
+  text-align: center;
 }
 
-.modal-footer .btn-primary {
-  position: relative;
-  left: -210px;
-}
-
-@media (max-width: 480px) {
-  .check {
-    position: static;
-    margin-top: 10px;
-  }
-
-  .year {
-    margin-top: 10px;
+@media (min-width: 1200px) {
+  body {
+    overflow: hidden;
   }
 }
